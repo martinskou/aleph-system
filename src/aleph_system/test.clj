@@ -14,7 +14,7 @@
 
 (defn setup [] {:port 9990
                 :cookie-name "somename"
-                :cookie-store-key "somekey"
+                :cookie-store-key "somekeysomekeyso"
                 :routes ["/" [
                               ["" home]
                               ["a/" (fn [req] (pprint req) (response "B"))] 
